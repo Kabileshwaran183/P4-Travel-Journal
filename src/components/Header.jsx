@@ -1,4 +1,4 @@
-import webIcon from '/src/assets/globe.png'
+import webIcon from '../assets/globe.png'
 export default function(){
     return (
         <header>

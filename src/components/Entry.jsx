@@ -1,4 +1,4 @@
-import locIcon from '/src/assets/marker.png'
+import locIcon from '../assets/marker.png'
 export default function Entry(props){
     return(
         <article>
