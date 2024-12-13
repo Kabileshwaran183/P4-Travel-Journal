@@ -1,32 +1,20 @@
 import Header from "./components/Header"
 import Entry from "./components/Entry"
-import image from "./assets/Japan.jpeg"
+import data from "./data"
 function App() {
-
+  const entryElements = data.map((item)=>{
+    return  <Entry  key={item.id}
+    img={item.img}
+    title={item.title}
+    country={item.country}
+    googleMapsLink={item.googleMapsLink}
+    dates={item.dates}
+    details={item.details}/>
+  })
   return (
     <>
       <Header/>
-      <Entry img={image}
-              city="Japan"
-              name="Mount Fuji"
-              date="12 Jan,2021 - 24 Jan,2021"
-              details="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."/>
-    <Entry img={image}
-              city="Japan"
-              name="Mount Fuji"
-              date="12 Jan,2021 - 24 Jan,2021"
-              details="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."/>
-    <Entry img={image}
-              city="Japan"
-              name="Mount Fuji"
-              date="12 Jan,2021 - 24 Jan,2021"
-              details="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."/>
-    <Entry img={image}
-              city="Japan"
-              name="Mount Fuji"
-              date="12 Jan,2021 - 24 Jan,2021"
-              details="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."/>
-    
+      {entryElements}
       </>
   )
 }
