@@ -1,7 +1,8 @@
+import webIcon from '/src/assets/globe.png'
 export default function(){
     return (
         <header>
-            <img src="/src/assets/globe.png"></img>
+            <img src={webIcon}></img>
             <h2>My Travel Journal</h2>
         </header>
     )
