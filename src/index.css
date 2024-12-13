@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+}
+header{
+    background-color:#F55A5A;
+    color : white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    margin-bottom:50px;
+}
+header > img{
+    width: 35px;
+    margin-right: 15px;
+    
+}
+article{
+    padding:10px;
+    display: flex;
+    margin-top:10px;
+}
+
+article > .img-container{
+    width: 155px;
+    height: 168px;
+    overflow:hidden;
+    margin-right:10px;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+article >.trip-info .city-title{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+article >.trip-info .city-title span{
+    font-family: 'Gill Sans', 'Gill Sans MT',sans-serif;
+}
+article >.trip-info h2{
+    margin-top: 12px;
+    margin-bottom: 1px;
+    font-family:  'Gill Sans MT',sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+}
+article >.trip-info .trip-date{
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    opacity: 75%;
+}
+article >.trip-info .trip-details{
+    margin-left: 5px;
+    color: #023919;
+    opacity:70%;
+    font-weight:400 ;
+    font-style: italic;
+    font-family:  sans-serif;
+}
+article >.trip-info .city-title >img{
+    width:10px;
+}
