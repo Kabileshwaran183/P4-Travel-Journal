@@ -8,17 +8,30 @@ header{
     justify-content: center;
     align-items: center;
     height: 55px;
-    margin-bottom:50px;
+    margin-bottom:30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 header > img{
     width: 35px;
     margin-right: 15px;
-    
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.sub-title {
+font-size: 2rem;
+font-weight: bold;
+font-family: 'Pacifico', cursive;
+color: #2B283A;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+letter-spacing: 2px;
+margin: 20px 30px;
 }
 article.journal-entry {
     padding:10px;
     display: flex;
     margin-top:10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 article > .city-img-container{
@@ -72,4 +85,11 @@ article >.trip-info .trip-details{
 }
 article >.trip-info .city-title >img{
     width:10px;
+}
+article >.trip-info .city-title >a{
+    text-decoration: none;
+    color: #be6012;
+}
+article >.trip-info .city-title >a:visited{
+    color:#eea20a;
 }

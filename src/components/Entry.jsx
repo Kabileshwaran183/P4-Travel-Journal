@@ -1,6 +1,7 @@
 import locIcon from '/assets/marker.png'
 export default function Entry(props){
     return(
+        <>
         <article className="journal-entry">
             <div className="city-img-container">
                 <img src={props.image} className="city-img" />
@@ -15,6 +16,9 @@ export default function Entry(props){
                 <p className="trip-date">{props.dates}</p>
                 <p className="trip-details">{props.details}</p>
             </div>
+            
         </article>
+        <hr />
+        </>
     )
 }

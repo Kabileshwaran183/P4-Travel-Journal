@@ -14,7 +14,9 @@ function App() {
   return (
     <>
       <Header/>
+      <h1 class="sub-title">Recent Tours</h1>
       {entryElements}
+
       </>
   )
 }
