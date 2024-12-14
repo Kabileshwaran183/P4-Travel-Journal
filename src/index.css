@@ -13,7 +13,7 @@ header{
 header > img{
     width: 35px;
     margin-right: 15px;
-    
+    object-fit: cover;
 }
 article{
     padding:10px;
@@ -28,6 +28,13 @@ article > .img-container{
     margin-right:10px;
     border-radius: 15px;
     flex-shrink: 0;
+}
+article > .img-container img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 article >.trip-info .city-title{

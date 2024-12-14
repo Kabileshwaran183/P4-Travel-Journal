@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        img: '/assets/Japan.jpeg',
+        img: '/assets/Mount.jpeg',
         title: "Mount Fuji",
         country: "Japan",
         googleMapsLink: "https://maps.app.goo.gl/6RLYZDuuuqJ7kNGZ9",
@@ -10,7 +10,7 @@ export default [
     },
     {
         id: 2,
-        img: '/assets/Japan.jpeg',
+        img: '/assets/oHouse.jpg',
         title: "Sydney Opera House",
         country: "Australia",
         googleMapsLink: "https://maps.app.goo.gl/Zr17SCrsJeCEKMd36",
@@ -19,7 +19,7 @@ export default [
     },
     {
         id: 3,
-        img: '/assets/Japan.jpeg',
+        img: '/assets/Geirangerfjord.jpeg',
         title: "Geirangerfjord",
         country: "Norway",
         googleMapsLink: "https://maps.app.goo.gl/fhkJuBhmFDv47tiB7",
