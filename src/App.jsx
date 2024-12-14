@@ -4,7 +4,7 @@ import data from "./data"
 function App() {
   const entryElements = data.map((item)=>{
     return  <Entry  key={item.id}
-    img={item.img}
+    image={item.img}
     title={item.title}
     country={item.country}
     googleMapsLink={item.googleMapsLink}

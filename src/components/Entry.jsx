@@ -3,7 +3,7 @@ export default function Entry(props){
     return(
         <article>
             <div className="img-container">
-                <img src={props.img.src} className="city-img" />
+                <img src={props.image} className="city-img" />
             </div>
             <div className="trip-info">
                 <div className="city-title">
