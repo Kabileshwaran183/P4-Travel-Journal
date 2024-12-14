@@ -3,7 +3,7 @@ export default function(){
     return (
         <header>
             <img src={webIcon}></img>
-            <h2>My Travel Journal</h2>
+            <h1>My Travel Journal</h1>
         </header>
     )
 }
