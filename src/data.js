@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        img: './assets/Japan.jpeg',
+        img: '/src/assets/Japan.jpeg',
         title: "Mount Fuji",
         country: "Japan",
         googleMapsLink: "https://maps.app.goo.gl/6RLYZDuuuqJ7kNGZ9",
@@ -19,7 +19,7 @@ export default [
     },
     {
         id: 3,
-        img: './assets/Japan.jpeg',
+        img: '../src/assets/Japan.jpeg',
         title: "Geirangerfjord",
         country: "Norway",
         googleMapsLink: "https://maps.app.goo.gl/fhkJuBhmFDv47tiB7",
